@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+
+
+}
+
+.circle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+}
+
+.col {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+}
+
+.same {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 197px;
+}
